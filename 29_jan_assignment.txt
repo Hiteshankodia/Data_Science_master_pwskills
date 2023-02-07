@@ -1,0 +1,24 @@
+1) Guido Van Russom Developed Python in 1970's 
+2) python support both Structured and Object Orient programming paradigm 
+3) yes,Python is Case sensitive language when dealing with identifiers. 
+4) '.py' is the extention of python files. 
+5) python code is both compiled and interpreted. 
+6) few block of code used to define in python language is, a module, a function body , a class defination. 
+7) Single line comment are implemented by '#' symbol
+8) 'python_version' is used to find python version. 
+9) python supports the creation of anonymous functions at runtime using a construct called 'lambda'.
+10) 'pip' - Preferred installer program. 
+11) some build-in function are count(), len(), print(), type(). 
+12) The maximum possible length for python identifier is '79' .
+13) Benifits of python are simple and easy syntax, High in-riched libraries,Open and Free source, Interpreted Language, Portable. 
+14) The managment of private heap containing all Python objects and data structures. The management of private heap is ensured by internally by the Python memory manager. 
+15) How to install python and set variable path 
+a) download python from python.org from windows  
+b) install it.
+c) Right-clicking This PC and going to Properties.
+d) Clicking on the Advanced system settings in the menu on the left.
+e) Clicking on the Environment Variables button o​n the bottom right.
+f) In the System variables section, selecting the Path variable and clicking on Edit. The next screen will show all the directories that are currently a part of the PATH variable.
+g) Clicking on New and entering Python’s install directory.
+
+16) Yes, Indentation is required in python. 
