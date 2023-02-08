@@ -1,0 +1,23 @@
+1) In python everything is a object like variable, function , class . 
+class is a blueprint for creating objects. 
+
+2) Four pilars of OOPS are,
+Inheritance, Polymorphism, Encapsulation, Abstraction 
+
+3) __init__() is a constructor ,eg. It is used while taking input parameters to the class.
+eg. 
+class pwskills:
+    def __init__(self, phone_number, email, student_id):
+        self.phone_number = phone_number 
+        self.email = email 
+        self.student_id = student_id 
+    def return_student_details(self):
+        return self.phone_number, self.email, self.student_id 
+rohan = pwskills(898, "dsad", 2312)
+print(rohan.phone_number)
+
+4)'self' is a pointer used to point funtion objects in a class. 
+
+5) Inheritance , allows us to define a class that inherits all the methods and properties from another class. 
+Type of inheritance and example are, 
+Single Level Inheritance, Multilevel Inheritance, Multiple Inheritance, Hierachical Inheritance, Hybird Inheritance. 
