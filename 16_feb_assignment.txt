@@ -1,0 +1,46 @@
+Q1. What is a database? Differentiate between SQL and NoSQL databases.
+
+Database is a organised, efficient collection of data typically structured information, or data in a system. 
+SQL - structured query language is a language used to interact with relational database(SQLlite). 
+NOSQL - Not Only SQL is a language used to interact with non relational database(Mango DB)
+
+Q2. What is DDL? Explain why CREATE, DROP, ALTER, and TRUNCATE are used with an example.
+- DDL is data defination language means language which defines the data. used to create modify the structure of objects in a database using predefined commands. 'CREATE' is used to create an database or a relation(table) eg. - CREATE TABLE mytable;
+'DROP' - is used to drop or delete a object permanently. eg. DROP TABLE mytable
+'ALTER' - command is a ddl command to update the structure of the table in the database(like add,delete, modify the attributes of the tables in the database).   
+
+Q3. What is DML? Explain INSERT, UPDATE, and DELETE with an example. 
+DML- stands for data manupliation language which allow ADD, DELETE, ALTER, INSERT, UPDATE- . 
+
+INSERT is used to insert the data into the table. eg. INSERT INTO my_table("Hitesh", "CSE", "4th year");
+
+UPDATE is used to modify the existing table in the database. eg.UPDATE Customers
+SET ContactName = 'Alfred Schmidt', City= 'Frankfurt'
+WHERE CustomerID = 1;
+
+DELETE - is used to delete with the specific condition in the RDBMS, eg. DELETE FROM table_name WHERE consition; 
+
+Q4. What is DQL? Explain SELECT with an example.
+'DQL' stands for data query language. eg. SELECT 
+SELECT * from table_1;
+
+DQL statements are used for performing queries on the data within schema objects. The purpose of the DQL Command is to get some schema relation based on the query passed to it. We can define DQL as follows it is a component of SQL statement that allows getting data from the database and imposing order upon it
+
+Q5. Explain Primary Key and Foreign Key.
+Primary key is the unique key which is not null it is key or attribute or set of attributes which uniquely defines a columns in a RDBMS. 
+Foreign KEY is a key which uniquely defines a columns and it the primary key of the other table which servers as a key there .
+
+Q6. Write a python code to connect MySQL to python. Explain the cursor() and execute() method.
+ - import mysql. connector
+ db = mysql.connector.connect(
+ host = "local host",
+ user = "abc",
+ password = "password"
+ ) 
+ 
+ cursor() - is a method used to execute statements to communicate with mysql DB.
+ execute() - is a method used to give database opertaions 
+ 
+ Q7. Give the order of execution of SQL clauses in an SQL query.
+ 
+ FROM > WHERE > GROUPBY > HAVING > SELECT > ORDERBY > LIMIT . 
